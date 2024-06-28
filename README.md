@@ -8,8 +8,6 @@ A simple and efficient To-Do List application built with Django, featuring user 
 + User-specific task lists
 + Mark tasks as complete or incomplete
 
-## Demo
-
 ## Getting Started
 
 Prerequisites
@@ -18,29 +16,28 @@ Prerequisites
 
 ## Installation
 
-Clone the repository: git clone https://github.com/radek54148/python_project.git
+1. Clone the repository: git clone https://github.com/radek54148/python_project.git
 
-Install dependencies:
+2. Install dependencies:
 ```pip install -r requirements.txt```
 
-Apply migrations:
+3. Apply migrations:
 ```python manage.py migrate```
 
-Run the development server:
+4. Run the development server:
 ```python manage.py runserver```
 
-Access the application:
-
+5. Access the application:
 Open your browser and navigate to http://127.0.0.1:8000
 
 ## Usage
 
-Task List: View and manage your tasks.
-Add Task: Create a new task.
-Edit Task: Update an existing task.
-Delete Task: Remove a task.
-Complete Task: Mark a task as completed or not completed.
-Authentication: Register, login, and logout functionality for users.
++ Task List: View and manage your tasks.
++ Add Task: Create a new task.
++ Edit Task: Update an existing task.
++ Delete Task: Remove a task.
++ Complete Task: Mark a task as completed or not completed.
++ Authentication: Register, login, and logout functionality for users.
 
 ## Screenshots
 
